@@ -120,7 +120,7 @@ class Sudoku {
     public String getMessage() {
         return message;
     }
-    public long getTimeElapsed() {
+    public long getElapsedTime() {
         return timeElapsed;
     }
 }

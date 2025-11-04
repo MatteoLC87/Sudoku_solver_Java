@@ -163,7 +163,7 @@ public class SudokuGUI extends JFrame {
     }
     private String printSudoku(int[][] sudoku) {
         StringBuilder printableSudoku = new StringBuilder(
-                "\n" + sudokuUI.getMessage() + "\n" + "time elapsed " + sudokuUI.getTimeElapsed() + " ms" + "\n\n"
+                "\n" + sudokuUI.getMessage() + "\n" + "time elapsed " + sudokuUI.getElapsedTime() + " ms" + "\n\n"
         );
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
