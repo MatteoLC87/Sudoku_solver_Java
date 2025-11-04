@@ -1,7 +1,7 @@
 package com.sudokuSolver;
 
 class Node {
-    private int value; //make it final? replace the node every time the value is updated? probably not efficient
+    private int value;
     private int[] position_9x9_ij;
     private Node next;
     private Node previous;
