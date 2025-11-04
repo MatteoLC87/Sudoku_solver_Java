@@ -7,7 +7,7 @@ class Sudoku {
     private int iterations;
     private String message;
     private long start;
-    private long timeElapsed;
+    private long elapsedTime;
 
     public Sudoku(int[][] sudoku) {
         for (int i = 0; i < 9; i++) {
@@ -91,7 +91,7 @@ class Sudoku {
             message = "sudoku solved\niterations: " + iterations;
         } finally {
             long finish = System.currentTimeMillis();
-            timeElapsed = finish - start;
+            elapsedTime = finish - start;
         }
     }
 
@@ -121,7 +121,7 @@ class Sudoku {
         return message;
     }
     public long getElapsedTime() {
-        return timeElapsed;
+        return elapsedTime;
     }
 }
 	
