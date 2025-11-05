@@ -1,7 +1,7 @@
 Application designed to solve 9x9 sudoku through a brute force algorithm approach based on the traversing of a doubly linked list formed by nodes representing the unknown numbers.
 
 Once the known numbers have been added, hitting the "solve" button will start the algorithm:
-- step 1: increment by 1 the first 0 (first unknown value, typically on the top left part of the sudoku) and checking if the resulting number is legal.
+- step 1: increment by 1 the first 0 (first unknown value, typically on the top left part of the sudoku).
 - step 2: check if the resulting number
   - is legal -> repeat step 1 on the next unknown number.
   - is not legal but lower than 10 -> repeat step 1 on the same number.
