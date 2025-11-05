@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import javax.swing.text.*;
 import java.io.*;
 
-public class SudokuGUI extends JFrame {
+class SudokuGUI extends JFrame {
     private final List<JTextField> linear9x9Grid;
     private final Container container;
     private final JTextPane result;
@@ -38,11 +38,7 @@ public class SudokuGUI extends JFrame {
         solvedSudoku = new int[9][9];
     }
 
-    public static void main(String[] args) {
-        new SudokuGUI().go();
-    }
-
-    private void go() {
+    protected void go() {
         setBounds(0, 0, 350, 500);
         FlowLayout fl = new FlowLayout();
         setLayout(fl);
