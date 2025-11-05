@@ -2,6 +2,7 @@ Application designed to solve 9x9 sudoku through a brute force algorithm approac
 
 Start the app compiling and running the SudokuSolverLauncher.java file.
 
-![](SudokuSolver.gif)
+
+![](SudokuSolver.mp4)
 
 
