@@ -12,5 +12,5 @@ In order to start the application, compile and run the SudokuSolverLauncher.java
 
 
 <p align="center">
-  <img src="SudokuSolver.gif" width="350" height="350"/>
+  <img src="SudokuSolver.gif" width="250" height="350"/>
 </p>
